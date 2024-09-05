@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.stiky-header{
+    position: -webkit-sticky;
+    z-index: 1000;
+    position: sticky;
+    top: 0px;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.logo img{
+    cursor: pointer;
+}
+.motor:hover{
+    color: blue;
+    cursor: pointer;
+}
+.property:hover{
+    color: blue;
+    cursor: pointer;
+}
+/* Parent */
+.option{
+    border: 2px solid black;
+    border-radius: 8px;
+    max-width: 330px;
+    padding-left: 10px;
+}
+/* Child */
+#select{
+    padding: 10px 150px 10px 5px;
+    border: none;
+    outline: none;
+}
+/* Parent */
+.search{ 
+    border: 2px solid black;
+    border-radius: 8px;
+    max-width: 1200px;
+    padding-left: 10px;
+}
+/* Child */
+input{
+    padding: 5px 500px 5px 5px;
+    border: none;
+    outline: none;  
+}
+.searchicon{
+    background-color: #002F34 ;
+    color: white;
+    padding: 17px;
+    cursor: pointer;
+}
+.btn a{
+    color: #002F34;
+    text-decoration: underline;
+}
+.btn a:hover{
+    text-decoration: none;
+}
+.btn1{
+    border-radius: 20px;
+    border-top: 5px solid #23E5DB;
+    border-right: 5px solid #3A77FF;
+    border-left: 5px solid #FFCE32;
+    border-bottom: none;
+}
+.banner img{
+    max-width: 100%;
+    cursor: pointer;
+}
+.catogeries{
+    cursor: pointer;
+}
+.card{
+    cursor: pointer;
+}
+.card-img-top{
+    height: 200px;
+}
+.icon{
+    margin-left: 170px;
+}
+.icon-1{
+    margin-left: 150px;
+}
+.speed{
+    font-size: 12px;
+    opacity: 1;
+}
+.bottom-image{
+    width:100%;
+}
+footer{
+    background-color: #EBEEEF;
+    width: 100%;
+}
+strong{
+    font-size: 14px;
+}
+.list-group-item{
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.footer-bottom{
+    text-align: end;
+    color: white;
+    background-color: #002F34;
+    height: 40px;
+    padding-top: 10px;
+}
+.footer-bottom p{
+    margin-right: 30px;
+    font-size: 14px;
+}
+.social-media-icons{ 
+    cursor: pointer;
+}
+.bottom-images{
+    cursor: pointer;
+}
